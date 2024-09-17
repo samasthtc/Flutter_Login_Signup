@@ -35,6 +35,12 @@ class AuthBloc extends Bloc<AuthEvent, AuthState> {
           email: email,
           password: password,
         );
+        emit(
+          const AuthStateLoggedOut(
+            exception: null,
+            isLoading: false,
+          ),
+        );
       } on Exception catch (e) {
         emit(
           AuthStateRegistering(
