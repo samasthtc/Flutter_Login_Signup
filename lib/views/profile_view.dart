@@ -146,6 +146,7 @@ class _ProfileViewState extends State<ProfileView> {
                         child: Align(
                           alignment: Alignment.topCenter,
                           child: Text.rich(
+                            textAlign: TextAlign.center,
                             TextSpan(
                               text: 'Welcome,\n',
                               style: const TextStyle(
@@ -161,16 +162,6 @@ class _ProfileViewState extends State<ProfileView> {
                                       : 'Stranger',
                                   style: TextStyle(
                                     fontSize: userName.isNotEmpty ? 64 : 24,
-                                    color: userName.isNotEmpty
-                                        ? Theme.of(context).colorScheme.primary
-                                        : Colors.red,
-                                    fontFamily: 'Noto Color Emoji',
-                                  ),
-                                ),
-                                TextSpan(
-                                  text: '👋',
-                                  style: TextStyle(
-                                    fontSize: 48,
                                     color: userName.isNotEmpty
                                         ? Theme.of(context).colorScheme.primary
                                         : Colors.red,
