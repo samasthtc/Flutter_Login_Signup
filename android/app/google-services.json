@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "690407887505",
+    "project_id": "login-8172a",
+    "storage_bucket": "login-8172a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:690407887505:android:ee18d589681764c710a530",
+        "android_client_info": {
+          "package_name": "com.oshoora.login"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC6aP79JpEpsdgagFDU4e7r_9KnDcWFzeM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
