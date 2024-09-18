@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:login/custom_text_form_fields.dart';
-import 'package:login/glass_card.dart';
+import 'package:login/widgets/custom_text_form_fields.dart';
+import 'package:login/widgets/glass_card.dart';
 import 'package:login/services/auth/auth_exceptions.dart';
 import 'package:login/services/auth/auth_service.dart';
 import 'package:login/services/auth/bloc/auth_bloc.dart';
